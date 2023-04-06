@@ -1,0 +1,32 @@
+@model List<Car>
+
+<h2>Car List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Car ID</th>
+            <th>Car Brand</th>
+            <th>Car Type</th>
+            <th>Color</th>
+            <th>Mileage</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var car in Model)
+        {
+            <tr>
+                <td>@car.Car_Id</td>
+                <td>@car.Car_Brand</td>
+                <td>@car.Type</td>
+                <td>@car.Color</td>
+                <td>@car.Mileage</td>
+                <td>@car.Price</td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create")" class="btn btn-primary">Create New Car</a>
