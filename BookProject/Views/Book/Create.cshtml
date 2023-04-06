@@ -1,0 +1,25 @@
+@model Book
+
+<h2>Create New Book</h2>
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.LabelFor(model => model.Book_Name)
+        @Html.TextBoxFor(model => model.Book_Name, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Author)
+        @Html.TextBoxFor(model => model.Author, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.No_of_pages)
+        @Html.TextBoxFor(model => model.No_of_pages, new { @class = "form-control" })
+    </div> <!-- add a closing tag for the div element -->
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Price)
+        @Html.TextBoxFor(model => model.Price, new { @class = "form-control" })
+    </div>
+    <input type="submit" value="Create" class="btn btn-primary" />
+}
