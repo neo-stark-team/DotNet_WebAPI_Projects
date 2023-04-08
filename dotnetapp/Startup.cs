@@ -9,7 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace EmployeeProject
+namespace dotnetapp
 {
     public class Startup
     {
@@ -24,10 +24,6 @@ namespace EmployeeProject
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            // services.AddTransient<IEmployeeRepository>(provider => new SqlEmployeeRepository(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
-            services.AddControllersWithViews();
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,7 +50,7 @@ namespace EmployeeProject
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Employee}/{action=Index}/{id?}");
+                    pattern: "{controller=Hotel}/{action=Index}/{id?}");
             });
         }
     }

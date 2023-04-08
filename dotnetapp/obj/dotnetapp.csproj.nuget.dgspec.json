@@ -42,21 +42,9 @@
               "target": "Package",
               "version": "[5.1.1, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "NUnit": {
               "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Moq": {
-              "target": "Package",
-              "version": "[4.16.0, )"
-            },
-            "NUNit": {
-              "target": "Package",
-              "version": "[3.13.1, )"
+              "version": "[3.13.3, )"
             }
           },
           "imports": [
