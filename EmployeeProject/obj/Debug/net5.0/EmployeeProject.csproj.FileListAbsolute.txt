@@ -1,5 +1,7 @@
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/appsettings.Development.json
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/appsettings.json
+/home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Tests/obj/project.assets.json
+/home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Tests/obj/Tests.csproj.nuget.dgspec.json
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/EmployeeProject
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/EmployeeProject.deps.json
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/EmployeeProject.runtimeconfig.json
@@ -11,6 +13,7 @@
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/EmployeeProject.Views.pdb
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Azure.Core.dll
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Azure.Identity.dll
+/home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Castle.Core.dll
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Microsoft.Bcl.AsyncInterfaces.dll
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Microsoft.Data.SqlClient.dll
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
@@ -27,6 +30,8 @@
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Microsoft.SqlServer.Server.dll
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Microsoft.Win32.SystemEvents.dll
+/home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Moq.dll
+/home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/nunit.framework.dll
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/System.Drawing.Common.dll
 /home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
@@ -84,3 +89,13 @@
 /home/coder/project/workspace/EmployeeProject/obj/Debug/net5.0/ref/EmployeeProject.dll
 /home/coder/project/workspace/EmployeeProject/obj/Debug/net5.0/EmployeeProject.pdb
 /home/coder/project/workspace/EmployeeProject/obj/Debug/net5.0/EmployeeProject.genruntimeconfig.cache
+/home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Tests/bin/Debug/net5.0/appsettings.Development.json
+/home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Tests/bin/Debug/net5.0/appsettings.json
+/home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Tests/bin/Debug/net5.0/EmployeeProject.deps.json
+/home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Tests/bin/Debug/net5.0/EmployeeProject.runtimeconfig.dev.json
+/home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Tests/bin/Debug/net5.0/EmployeeProject.runtimeconfig.json
+/home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Tests/bin/Debug/net5.0/Tests.deps.json
+/home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Tests/bin/Debug/net5.0/Tests.runtimeconfig.dev.json
+/home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Tests/bin/Debug/net5.0/Tests.runtimeconfig.json
+/home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Tests/bin/Debug/net5.0/Tests/obj/project.assets.json
+/home/coder/project/workspace/EmployeeProject/bin/Debug/net5.0/Tests/bin/Debug/net5.0/Tests/obj/Tests.csproj.nuget.dgspec.json
