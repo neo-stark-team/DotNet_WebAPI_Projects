@@ -39,15 +39,16 @@ public class EmployeeRepository : IEmployeeRepository
                 {
                     Employee employee = new Employee();
 
-                    employee.EmployeeID = Convert.ToInt32(reader["EmployeeID"]);
-                    employee.Name = reader["Name"].ToString();
-                    employee.Email = reader["Email"].ToString();
-                    employee.Department = reader["Department"].ToString();
+                     employee.EmployeeID = Convert.ToInt32(reader["EmployeeID"]);
+                     employee.Name = reader["Name"].ToString();
+                     employee.Email = reader["Email"].ToString();
+                     employee.Department = reader["Department"].ToString();
 
                     employees.Add(employee);
                 }
 
                 reader.Close();
+                _connection.Close();
             }
         }
         catch(Exception ex)
@@ -69,6 +70,7 @@ public class EmployeeRepository : IEmployeeRepository
             command.Parameters.AddWithValue("@Email", employee.Email);
             command.Parameters.AddWithValue("@Department", employee.Department);
             command.ExecuteNonQuery();
+            _connection.Close();
         }
     }
 }
