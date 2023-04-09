@@ -1,0 +1,30 @@
+@model List<Book>
+
+<h2>Book List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Book ID</th>
+            <th>Book_Name</th>
+            <th>Author</th>
+            <th>No_of_pages</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.id</td>
+                <td>@book.Book_Name</td>
+                <td>@book.Author</td>
+                <td>@book.No_of_pages</td>
+                <td>@book.Price</td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create")" class="btn btn-primary">Create New Book</a>

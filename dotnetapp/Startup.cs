@@ -50,7 +50,7 @@ namespace dotnetapp
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Hotel}/{action=Index}/{id?}");
+                    pattern: "{controller=Book}/{action=Index}/{id?}");
             });
         }
     }
