@@ -31,6 +31,7 @@ namespace dotnetapp
         {
             string connectionString = Configuration.GetConnectionString("myconnstring");
             services.AddDbContext<ProductDBContext>(opt => opt.UseSqlServer(connectionString));
+            services.AddScoped<IProductService, ProductService>();
             services.AddCors();
 
             services.AddControllers();
