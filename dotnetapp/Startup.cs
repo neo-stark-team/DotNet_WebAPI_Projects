@@ -30,8 +30,8 @@ namespace dotnetapp
         public void ConfigureServices(IServiceCollection services)
         {
             string connectionString = Configuration.GetConnectionString("myconnstring");
-            services.AddDbContext<ProductDBContext>(opt => opt.UseSqlServer(connectionString));
-            services.AddScoped<IProductService, ProductService>();
+            services.AddDbContext<FitnessTrackerDbContext>(opt => opt.UseSqlServer(connectionString));
+            
             services.AddCors();
 
             services.AddControllers();
