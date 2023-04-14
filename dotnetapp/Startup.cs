@@ -30,7 +30,7 @@ namespace dotnetapp
         public void ConfigureServices(IServiceCollection services)
         {
             string connectionString = Configuration.GetConnectionString("myconnstring");
-            services.AddDbContext<FitnessTrackerDbContext>(opt => opt.UseSqlServer(connectionString));
+            services.AddDbContext<TransactionDbContext>(opt => opt.UseSqlServer(connectionString));
             
             services.AddCors();
 
