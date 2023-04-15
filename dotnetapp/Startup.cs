@@ -30,8 +30,7 @@ namespace dotnetapp
         public void ConfigureServices(IServiceCollection services)
         {
             string connectionString = Configuration.GetConnectionString("myconnstring");
-            services.AddDbContext<TransactionDbContext>(opt => opt.UseSqlServer(connectionString));
-            
+            services.AddDbContext<EventApiDbContext>(opt => opt.UseSqlServer(connectionString));
             services.AddCors();
 
             services.AddControllers();
